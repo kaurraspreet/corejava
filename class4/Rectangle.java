@@ -2,24 +2,23 @@ import java.util.Scanner;
 import java.util.*;
 
 class Rectangle{
+ int length,breadth;
 
+void main CalculateArea(length,breadth){
+System.out.println(length*breadth);
+}
+ Scanner sc;
+sc= new Scanner(System.in);
+System.out.println("enter numbers");
+int len =sc.nextInt();
+int brd =sc.nextInt();
 
-
-public static double CalculateArea(double l,double w);
-{ double area;
-  area=l*w;
-  return area;
+Rectangle r1= new.Rectangle();
+r1.CalculateArea(len,brd);
 }
 
-public static void main(String[] args){
-double length,breadth, area;
-Scanner ar;
-ar=new Scanner(System.in);
-length=ar.nextInt();
-breadth= ar.nextInt();
 
-area=CalculateArea(length,breadth);
-System.out.println("Area of rectangle is:" +area);
-}
 
-}
+
+
+
