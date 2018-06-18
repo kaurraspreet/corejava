@@ -22,6 +22,7 @@ this.name=name;
 }
 void me()
 {
+
 System.out.println(" colour is:"+colour);
 System.out.println(" breed is:"+breed);
 System.out.println("name is:"+name);
@@ -37,8 +38,8 @@ System.out.println("i eats bones.");
 public class AbstractA{
 public static void main(String[] args)
 {
-Animals an=new dog("retriever","white","jack");
-dog d= new dog("retriever","white","jack");
+Animals an=new dog("white","retriever","jack");
+dog d= new dog("white","retriever","jack");
 d.me();
 an.eat();
 an.speak();
